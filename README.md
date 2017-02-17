@@ -1,4 +1,4 @@
-# tinyDancer
+#Hold me closer tinyDancer!
 
 Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame")?  I don't blame you!
 
