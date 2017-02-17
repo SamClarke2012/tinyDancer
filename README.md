@@ -10,3 +10,9 @@ The ATTiny85 can be flashed using any standard AVR programmer, and I expect most
 
 
 `sudo avrdude -F -c arduino -p t85 -U flash:w:tinyDancer.hex -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m`
+
+## PB4 strobes at ~90.5Hz (Magnetic coil via TIP122)
+![Channel 2](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/SDS00003.BMP "Channel 2")
+
+## PB3 strobes at ~90.0Hz (LED strip)
+![Channel 1](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/SDS00002.BMP "Channel 1")
