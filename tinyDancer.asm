@@ -18,24 +18,6 @@
 ;                        GND -- |_____| -- PB2 -- mosi                ;
 ;                                                                     ;
 ;______________________________8-Pin DIP______________________________;
-;                                                                     ;
-;                              **NOTES**                              ;
-; 8mhz / 256 / 177 = 176.553672316Hz (prev = 177.556818182Hz)         ;
-;                                                                     ;
-;   ~88.8Hz    (MAG)                                                  ;
-;  |<--->|   = Toggle PB3 @ ~177.6Hz  = OCR0A 176 - 1                 ;
-;   __    __    __                                                    ;
-;__|  |__|  |__|                                                      ;
-;                                                                     ;
-;  ~88.3Hz       (LED)                                                ;
-; |<--->|    = Toggle PB4 @ ~176.6Hz  = OCR1A 177 - 1                 ;
-;  __    __    __                                                     ;
-;_|  |__|  |__|                                                       ;
-;                        Delta freq = 1Hz toggle, 0.5Hz strobe        ;
-;                                                                     ;
-;  # The current draw from the coil can be given by I=V/R             ;
-;  # The transistor should be able to handle the current + 20%        ;
-;_____________________________________________________________________;
 .NOLIST
 .INCLUDE "tn85def.inc"
 .LIST
