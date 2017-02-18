@@ -16,3 +16,6 @@ The ATTiny85 can be flashed using any standard AVR programmer, and I expect most
 
 ## PB3 strobes at ~90.0Hz (LED strip)
 ![Channel 1](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/SDS00002.BMP "Channel 1")
+
+## Minimum Setup (SANS transistor)
+![Setup](https://github.com/SamClarke2012/tinyDancer/raw/master/Oscope/foto_no_exif(1).jpg "Minimum Setup")
