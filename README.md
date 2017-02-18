@@ -1,6 +1,8 @@
 #Hold me closer tinyDancer!
 
-Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame")?  I don't blame you! So naturally, as a maker/hacker ... you build your own!
+Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame")?  
+
+I don't blame you! And naturally, as a maker/hacker ... you build your own!
 
 One of the more expensive parts of that project is the microcontroller, for this the [time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") uses an Atmel MEGA series chipset which is overkill to say the least as most of this microcontroller's peripherals such as I/O, timers and serial comms aren't used at all. 
 
