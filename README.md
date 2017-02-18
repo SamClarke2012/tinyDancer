@@ -4,7 +4,7 @@ Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com
 
 I don't blame you! And naturally, as a maker/hacker ... you build your own!
 
-One of the more expensive parts of that project is the microcontroller, for this the [time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") uses an Atmel MEGA series chipset which is overkill to say the least as most of this microcontroller's peripherals such as I/O, timers and serial comms aren't used at all. 
+One of the more expensive parts of that project is the microcontroller, for this the [time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") uses an Atmel MEGA series chipset which is overkill to say the least! (most of this microcontroller's peripherals such as I/O, timers and serial comms aren't used at all). 
 
 In order to bring the cost of this project down somewhat, the main functionality of slow dance has been implemented for a more suitable and cheaper chipset, the ATTiny85, which can be had for as little as $1.  Furthermore, by running the chipset with it's calibrated internal oscillator as opposed to an external xtal, the time frame can be run using just 1x LM7805 regulator and 1x TIP122 darlington transistor (see diagram and O'scope below). It's true that the internal oscillator is only accurate to +/-10%, but given that the illusion is created by the relative difference in strobe frequencies, this error doesn't matter at all as the two signals remain 0.5Hz apart, and the overall error remains beyond human perception.
 
