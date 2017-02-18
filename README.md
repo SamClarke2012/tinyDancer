@@ -4,10 +4,16 @@ Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com
 
 I don't blame you! And naturally, as a maker/hacker ... you build your own!
 
-One of the more expensive parts of that project is the microcontroller, for this the [time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") uses an Atmel MEGA series chipset which is overkill to say the least! (most of this microcontroller's peripherals such as I/O, timers and serial comms aren't used at all). 
+###Why is the [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") so expensive?
+One of the more expensive parts of that project is the microcontroller, for this the [time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") uses an Atmel MEGA series chipset which is overkill to say the least! (most of the ATMEGA's peripherals such as I/O, timers and serial comms aren't used at all). 
 
-In order to bring the cost of this project down somewhat, the main functionality of slow dance has been implemented for a more suitable and cheaper chipset, the ATTiny85, which can be had for as little as $1.  Furthermore, by running the chipset with it's calibrated internal oscillator as opposed to an external xtal, the time frame can be run using just 1x LM7805 regulator and 1x TIP122 darlington transistor (see diagram and O'scope below). It's true that the internal oscillator is only accurate to +/-10%, but given that the illusion is created by the relative difference in strobe frequencies, this error doesn't matter at all as the two signals remain 0.5Hz apart, and the overall error remains beyond human perception.
+###So what microcontroller should we use?
+In order to bring the cost of building one of these down somewhat, the main functionality of slow dance has been implemented for a more suitable and much cheaper chipset, the ATTiny85, which can be had for as little as $1.  Furthermore, by running the chipset with it's calibrated internal oscillator (as opposed to an external oscillator), tinyDancer can be run using just 1x LM7805 regulator and 1x TIP122 darlington transistor (along with a couple of passive components - see diagram). 
 
+###Isn't that clock source inaccurate?
+It's true that the internal oscillator is only accurate to +/-10%, but given that the illusion is created by the relative difference in strobe frequencies, this error doesn't matter at all as the two signals remain 0.5Hz apart, and the overall error remains beyond human perception.
+
+###So, how do I get started?
 The ATTiny85 can be flashed using any standard AVR programmer (no arduino bootloaders here folks), and I expect most will likely use the arduinoISP sketch to create their own programmer. If so the chip can be flashed using the following cmd:
 
 
