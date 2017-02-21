@@ -62,7 +62,7 @@ PWRRSTVECT:
    out   TCCR0B,  gReg                    ; T0 CLK/256
    ldi   gReg,    T0_CMPAval              ;
    out   OCR0A,   gReg                    ; Set T0 CMP reg
-   ldi   gReg,    ((1<<CTC1)|T1_clock)    ;
+   ldi   gReg,    (1<<CTC1)|T1_clock)     ;
    out   TCCR1,   gReg                    ; T1 CTC, CLK/256 
    ldi   gReg,    T1_CMPAval              ;
    out   OCR1A,   gReg                    ; Set T1 CLR/CMP regs
