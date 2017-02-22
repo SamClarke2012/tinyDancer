@@ -29,8 +29,10 @@ The current limiting resistors can selected to be better suit to your coil. For 
 
 The resistence of the coil I used was 18.6 Ohms.  Using Ohm's law, that's a current draw of about 0.7A @ 12V.  The TIP120 has an NPN gain of about 1000X, so we only need to flow 0.0007A (7mA) to the TIP120 to barely activate the coil.  Rounding this up for a bit of overhead to say, 20mA, we can solve of the best suited resistor.
 
-0.0020mA = (12-0.7)/R   # 0.7V typical loss across PN junction.
-=> R = 5600 Ohm.        # a.k.a 5.6KOhm.
+`
+0.0020mA = (12-0.7)/R   # 0.7V typical loss across PN junction.`
+
+`=> R = 5600 Ohm.        # a.k.a 5.6KOhm.`
 
 The same should be done to the LED line.  For example purposes 1K is shown as a general value to get people started.
 
@@ -46,7 +48,3 @@ The same should be done to the LED line.  For example purposes 1K is shown as a 
 ##Is there other way to reduce the cost?
 Yup! Instead of buying 40ft of copper wire and winding it over a ferrous slug, simply repurpose a 12v solenoid by fixing the slug in place with epoxy (as close to center as possible). 
 ![Setup](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/tmp_27874-foto_no_exif89039024.jpg "ready-made magnet")
-
-Solid PCB LED strip can be used for the lighting, this is around half the price of the flexible kind.
-![Setup](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/tmp_27874-foto_no_exif(2)-988514721.jpg
- "")
