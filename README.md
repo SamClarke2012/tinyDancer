@@ -20,8 +20,9 @@ It's true that the internal oscillator is only accurate to +/-10%, but given tha
 ###So, how do I get started?
 The ATTiny85 can be flashed using any standard AVR programmer (no arduino bootloaders here folks), and I expect most will likely use the arduinoISP sketch to create their own programmer. If so the chip can be flashed using the following cmd:
 
+`sudo avrdude -F -c arduino -p t85 -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m`
 
-`sudo avrdude -F -c arduino -p t85 -U flash:w:tinyDancer.hex -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m`
+`sudo avrdude -F -c arduino -p t85 -U flash:w:tinyDancer.hex`
 
 ###Schematic
 
