@@ -18,7 +18,7 @@ In order to bring the cost of building one of these down somewhat, the main func
 It's true that the internal oscillator is only accurate to +/-10%, but given that the illusion is created by the relative difference in strobe frequencies, this error doesn't matter at all as the two signals remain 0.5Hz apart, and the overall error remains beyond human perception.
 
 ###So, how do I get started?
-The ATTiny85 can be flashed using any standard AVR programmer (no arduino bootloaders here folks), and I expect most will likely use the arduinoISP sketch to create their own programmer. If so the chip can be flashed using the following cmd:
+The ATTiny85 can be flashed using any standard AVR programmer (no arduino bootloaders here folks), and I expect most will likely use the [arduino ISP](https://www.arduino.cc/en/Tutorial/ArduinoISP "arduino ISP") sketch to create their own programmer. If so the chip can be flashed using the following cmd:
 
 `sudo avrdude -F -c arduino -p t85 -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m`
 
