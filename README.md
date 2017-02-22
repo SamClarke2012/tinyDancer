@@ -32,5 +32,6 @@ The ATTiny85 can be flashed using any standard AVR programmer (no arduino bootlo
 ###PB3 strobes at ~90.0Hz (LED strip)
 ![Channel 1](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/SDS00002.BMP "Channel 1")
 
-##All that's needed for the microcontroller
-![Setup](https://github.com/SamClarke2012/tinyDancer/raw/master/Oscope/foto_no_exif(1).jpg "Minimum Setup")
+##Is there other way to reduce the cost?
+Yup! Instead of buying 40ft of copper wire and winding it over a ferrous slug, simply repurpose a 12v solenoid by fixing the slug in place with epoxy (as close to center as possible). 
+![Setup](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/tmp_27874-foto_no_exif89039024.jpg "ready-made magnet")
