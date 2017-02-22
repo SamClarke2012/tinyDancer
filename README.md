@@ -25,16 +25,17 @@ The ATTiny85 can be flashed using any standard AVR programmer (no arduino bootlo
 ###Schematic
 
 The TIP120 is overkill for the LED strip, however most vendors sell them in a pack of 2 or 3, so we use it to reduce parts/cost.
-The current limiting resistors can selected to be better suit to your coil. For example, a 2k resistor on the magnet line would limit the current flowing to the magnet coil to a maximum of about 2A.
+The current limiting resistors can selected to be better suit to your coil. For example, a 2k resistor on the magnet line would limit the current flowing to the magnet coil to a maximum of about 2.15A. The rational behind this 
 
-The resistence of the coil I used was 18.6 Ohms.  Using Ohm's law, that's a current draw of about 0.7A @ 12V.  The TIP120 has an NPN gain of about 1000X, so we only need to flow 0.0007A (7mA) to the TIP120 to barely activate the coil.  Rounding this up for a bit of overhead to say, 20mA, we can solve of the best suited resistor.
+The resistence of the coil I used was 18.6 Ohms.  Using Ohm's law, that's a current draw of about 0.7A @ 12V.  The TIP120 has an NPN gain of about 1000X, so we only need to flow 0.0007A (7mA) to the TIP120 to barely activate the coil.  Rounding this up for a bit of overhead to say, 10mA, we can solve of the best suited resistor.
 
 `
-0.0020mA = (12-0.7)/R   # 0.7V typical loss across PN junction.`
+0.0010mA = (5V-0.7V)/R   # 0.7V typical loss across PN junction.`
 
-`=> R = 5600 Ohm.        # a.k.a 5.6KOhm.`
+`=> R = 4300 Ohm.        # closest being 4.6KOhm. Which would allow 0.9A to flow from collector -> emitter`
 
 The same should be done to the LED line.  For example purposes 1K is shown as a general value to get people started.
+
 
 ![Schematic](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/Schematic.png "Schematic")
 
