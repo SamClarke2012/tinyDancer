@@ -25,13 +25,13 @@
 ;
 ;  Register constants
 ;
-.DEF gReg = R17   ; General perpose register 
-.DEF xReg = R18   ; XOR register
+.DEF gReg = R17      ; General purpose register 
+.DEF xReg = R18      ; XOR register
 ;
 ;  Pin constants
 ;
-.EQU magPin = PB3 ; Pin for transistor (to drive the mag coil)
-.EQU ledPin = PB4 ; Pin for LED strip
+.EQU magPin = PB3    ; Pin for transistor (to drive the mag coil)
+.EQU ledPin = PB4    ; Pin for LED strip
 ;
 ;  Pin masks
 ;
@@ -47,7 +47,7 @@
 ;
 ;  Interrrupt Vectors
 ;
-.ORG 0x0000   rjmp   PWRRSTVECT      ; Reset / Power Vector
+.ORG 0x0000   rjmp   PWRRSTVECT       ; Reset / Power Vector
 .ORG 0x0003   rjmp   T1_CMPAVECT      ; Timer 1 Compare A Vector
 .ORG 0x000A   rjmp   T0_CMPAVECT      ; Timer 0 Compare A Vector
 ;
