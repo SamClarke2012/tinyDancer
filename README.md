@@ -2,6 +2,7 @@
 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=aCoGVHFFQqk" target="_blank"><img src="http://img.youtube.com/vi/aCoGVHFFQqk/0.jpg" alt="tinyDancer" width="320" height="240" border="10" /></a> 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=hFmYEhCrSMo" target="_blank"><img src="http://img.youtube.com/vi/hFmYEhCrSMo/0.jpg" alt="tinyDancer" width="320" height="240" border="10" /></a> 
 
 
 Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame")?  
