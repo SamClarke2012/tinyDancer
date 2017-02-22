@@ -1,7 +1,7 @@
 #Hold me closer tinyDancer!
 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Gln_W7R6Qp0" target="_blank"><img src="http://img.youtube.com/vi/Gln_W7R6Qp0/0.jpg" alt="tinyDancer" width="240" height="180" border="10" /></a> 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=aCoGVHFFQqk" target="_blank"><img src="http://img.youtube.com/vi/aCoGVHFFQqk/0.jpg" alt="tinyDancer" width="320" height="240" border="10" /></a> 
 
 
 Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame")?  
@@ -23,10 +23,21 @@ The ATTiny85 can be flashed using any standard AVR programmer (no arduino bootlo
 `sudo avrdude -F -c arduino -p t85 -U flash:w:tinyDancer.hex -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m`
 
 ###Schematic
+
+The TIP120 is overkill for the LED strip, however most vendors sell them in a pack of 2 or 3, so we use it to reduce parts/cost.
+The current limiting resistors can selected to be better suit to your coil. For example, a 2k resistor on the magnet line would limit the current flowing to the magnet coil to a maximum of about 2A.
+
+The resistence of the coil I used was 18.6 Ohms.  Using Ohm's law, that's a current draw of about 0.7A @ 12V.  The TIP120 has an NPN gain of about 1000X, so we only need to flow 0.0007A (7mA) to the TIP120 to barely activate the coil.  Rounding this up for a bit of overhead to say, 20mA, we can solve of the best suited resistor.
+
+0.0020mA = (12-0.7)/R   # 0.7V typical loss across PN junction.
+=> R = 5600 Ohm.        # a.k.a 5.6KOhm.
+
+The same should be done to the LED line.  For example purposes 1K is shown as a general value to get people started.
+
 ![Schematic](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/Schematic.png "Schematic")
 
 
-###PB4 strobes at ~90.5Hz (Magnetic coil via TIP122)
+###PB4 strobes at ~90.5Hz (Magnetic coil via TIP120)
 ![Channel 2](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/SDS00003.BMP "Channel 2")
 
 ###PB3 strobes at ~90.0Hz (LED strip)
