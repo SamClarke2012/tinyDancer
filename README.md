@@ -1,7 +1,11 @@
 #Hold me closer tinyDancer!
 
-Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame")?  
 
+https://youtu.be/aR_T8TUSlyA
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=aR_T8TUSlyA" target="_blank"><img src="http://img.youtube.com/vi/aR_T8TUSlyA/0.jpg" alt="tinyDancer" width="240" height="180" border="10" /></a> 
+
+
+Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame")?  
 I don't blame you! And naturally, as a maker/hacker ... you build your own!
 
 ###Why is the [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") so expensive?
