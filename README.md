@@ -46,7 +46,7 @@ The same should be done to the LED line.  For example purposes 1K is shown as a 
 ###PB3 strobes at ~90.0Hz (LED strip)
 ![Channel 1](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/SDS00002.BMP "Channel 1")
 
-##Is there other way to reduce the cost?
+##Are there other ways to reduce the cost?
 Yup! Instead of buying 40ft of copper wire and winding it over a ferrous slug, simply repurpose a 12v solenoid by fixing the slug in place with epoxy (as close to center as possible). 
 ![Setup](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/tmp_27874-foto_no_exif89039024.jpg "ready-made magnet")
 
