@@ -1,6 +1,6 @@
 #Hold me closer tinyDancer!
 
-
+![gif](https://media.giphy.com/media/l44QAHd7upiIi2DQY/200w.gif "gif")
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=aCoGVHFFQqk" target="_blank"><img src="http://img.youtube.com/vi/aCoGVHFFQqk/0.jpg" alt="tinyDancer" width="320" height="240" border="10" /></a> 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hFmYEhCrSMo" target="_blank"><img src="http://img.youtube.com/vi/hFmYEhCrSMo/0.jpg" alt="tinyDancer" width="320" height="240" border="10" /></a> 
 
