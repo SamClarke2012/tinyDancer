@@ -49,3 +49,13 @@ The same should be done to the LED line.  For example purposes 1K is shown as a 
 ##Is there other way to reduce the cost?
 Yup! Instead of buying 40ft of copper wire and winding it over a ferrous slug, simply repurpose a 12v solenoid by fixing the slug in place with epoxy (as close to center as possible). 
 ![Setup](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/tmp_27874-foto_no_exif89039024.jpg "ready-made magnet")
+
+
+And if you want to go even cheaper, the LED strip can be of the solid PCB type, and you can make the frame and mounting out of questionable materials that you have laying around the house. Like I've done here :P
+
+![Setup](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/tmp_27078-foto_no_exif(3)653598157.jpg "ready-made magnet")
+
+##Is there any part that shouldn't be cheap?
+Yes, throughout the build I noticed that you need a mounting (the part the viewing object is attached to) that has an appropriate amount of spring back and rigidity. For example, hack saw blades are too flexible, even when applied in two layers. The most successful mount I found was the iFixit 150mm steel pocket ruler. Though it's a bit long, it does the job well.
+
+Another area of consideration is the rare earth magnets placed opposed to the coil. I found that the effect was a function of A. the distance from the coil to the mount, B. the rigidity of the mount as mentioned above, and C. The strength of the opposing magnetic field created by those magnets. So it makes the effect more tunable if you have a variety of magnets on hand. I ended up using the magnets found in a 3.5" HDD.
