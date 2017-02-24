@@ -35,9 +35,9 @@ The current limiting resistors can selected to be better suit your coil and LED 
 `
 0.0010mA = (5V-0.7V)/R   # 0.7V typical loss across PN junction.`
 
-`=> R = 4300 Ohm.        # closest being 4.6KOhm. Which would allow 0.9A to flow from collector -> emitter`
+`=> R = 4300 Ohm.        # closest being 4.7KOhm. Which would allow ~0.9A to flow from collector -> emitter`
 
-The same should be done to the LED line.  For example purposes 1K is shown as a general value to get people started.
+The same should be done to the LED line, currently the schematic uses the same configuration for the LED output. This makes the board a little more versatile in terms of customisation. For example the firmware could be altered to switch two opposing magnets rather than just one, then simply use another board for the LED output.
 
 
 ![View Schematic](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/tinyDancer.svg "View Schematic")
