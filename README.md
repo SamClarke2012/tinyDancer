@@ -15,7 +15,9 @@ I don't blame you! And naturally, as a maker/hacker ... you build your own!
 One of the more expensive parts of that project is the microcontroller, for this the [time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") uses an Atmel MEGA series chipset which is overkill to say the least! (most of the ATMEGA's peripherals such as I/O, timers and serial comms aren't used at all). This coupled with custom magnet coils seems to bump the price up quite a bit. 
 
 ###So what microcontroller should we use?
-In order to bring the cost of building one of these down somewhat, the main functionality of slow dance has been implemented for a more suitable and much cheaper chipset, the ATTiny85, which can be had for as little as $1.  Furthermore, by running the chipset with it's calibrated internal oscillator (as opposed to an external oscillator), tinyDancer can be run using just 1x LM7805 regulator and 2x TIP120 darlington transistors (along with a couple of passive components - see diagram). 
+In order to bring the cost of building one of these down somewhat, the main functionality of slow dance has been implemented for a more suitable and much cheaper chipset, the ATTiny85, which can be had for as little as $1.  Furthermore, by running the chipset with it's calibrated internal oscillator (as opposed to an external oscillator), tinyDancer can be run using just 1x LM7805 regulator and 2x TIP120 darlington transistors. 
+
+![Board 3D](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/3d_brd.png "Board 3D")
 
 ###Isn't that clock source inaccurate?
 It's true that the internal oscillator is only accurate to +/-10%, but given that the illusion is created by the relative difference in strobe frequencies, this error doesn't matter at all as the two signals remain 0.5Hz apart, and the overall error remains beyond human perception.
@@ -30,10 +32,10 @@ The ATTiny85 can be flashed using any standard AVR programmer (no arduino bootlo
 ###Schematic
 
 The TIP120 is overkill for the LED strip, however most vendors sell them in a pack of 2 or 3, so we use it to reduce parts/cost.
-The current limiting resistors can selected to be better suit your coil and LED strip requirements. The resistence of the coil I used was 18.6 Ohms.  Using Ohm's law, that's a current draw of about 0.7A @ 12V.  The TIP120 has an NPN gain of about 1000X, so we only need to flow 0.0007A (7mA) to the TIP120 to barely activate the coil.  Rounding this up for a bit of overhead to say, 10mA, we can solve the best suited resistor.
+The current limiting resistors currently limit the outputs to approximately 1A. The resistence of the coil I used was 18.6 Ohms.  Using Ohm's law, that's a current draw of about 0.7A @ 12V.  The TIP120 has an NPN gain of 1000X, so we only need to flow 0.0007A (7mA) to the TIP120 to barely activate the coil.  Rounding this up for a bit of overhead to say, 10mA, we can solve the best suited resistor.
 
-`
-0.0010mA = (5V-0.7V)/R   # 0.7V typical loss across PN junction.`
+
+`0.0010mA = (5V-0.7V)/R   # 0.7V typical loss across PN junction.`
 
 `=> R = 4300 Ohm.        # closest being 4.7KOhm. Which would allow ~0.9A to flow from collector -> emitter`
 
@@ -44,7 +46,6 @@ The same should be done to the LED line, currently the schematic uses the same c
 
 
 ![Board](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/brd.png "Board")
-![Board 3D](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/3d_brd.png "Board 3D")
 
 
 ###PB4 strobes at ~90.5Hz (Magnetic coil via TIP120)
