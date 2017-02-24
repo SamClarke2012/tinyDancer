@@ -40,7 +40,11 @@ The current limiting resistors can selected to be better suit your coil and LED 
 The same should be done to the LED line.  For example purposes 1K is shown as a general value to get people started.
 
 
-![Schematic](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/Schematic.png "Schematic")
+![View Schematic](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/Schematic.svg "View Schematic")
+
+
+![Board](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/brd.png "Board")
+![Board 3D](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/3d_brd.png "Board 3D")
 
 
 ###PB4 strobes at ~90.5Hz (Magnetic coil via TIP120)
