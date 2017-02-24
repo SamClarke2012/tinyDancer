@@ -40,7 +40,7 @@ The current limiting resistors can selected to be better suit your coil and LED 
 The same should be done to the LED line.  For example purposes 1K is shown as a general value to get people started.
 
 
-![View Schematic](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/Schematic.svg "View Schematic")
+![View Schematic](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/tinyDancer.svg "View Schematic")
 
 
 ![Board](https://github.com/SamClarke2012/tinyDancer/blob/master/Oscope/brd.png "Board")
