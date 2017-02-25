@@ -5,6 +5,8 @@ I don't blame you! And naturally, as a maker/hacker ... you build your own!
 
 ![gif](https://media.giphy.com/media/l44QAHd7upiIi2DQY/200w.gif "gif")
 ![gif](https://media.giphy.com/media/3o84U9NDxLFh2DtIpW/200w.gif "gif")
+![gif](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/tmp_3789-200w(3)-1863774699.gif "gif")
+
 
 ##Demo Videos:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=aCoGVHFFQqk" target="_blank"><img src="http://img.youtube.com/vi/aCoGVHFFQqk/0.jpg" alt="tinyDancer" width="320" height="240" border="10" /></a> 
