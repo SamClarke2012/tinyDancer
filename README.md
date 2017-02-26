@@ -1,5 +1,12 @@
 #Hold me closer tinyDancer!
 
+`*** COMING SOON`
+
+`- Selectable base freqs to optimise the effect for objects with different resonant freqs`
+
+`- Start / Stop input`
+
+
 Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame")?  
 I don't blame you! And naturally, as a maker/hacker ... you build your own!
 
