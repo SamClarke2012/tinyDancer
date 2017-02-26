@@ -1,5 +1,12 @@
 #Hold me closer tinyDancer!
 
+`*** COMING SOON`
+
+`- Selectable base freqs to optimise the effect for objects with different resonant freqs`
+
+`- Start / Stop input`
+
+
 Don't want to pay $200 for a [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame")?  
 I don't blame you! And naturally, as a maker/hacker ... you build your own!
 
@@ -8,9 +15,9 @@ I don't blame you! And naturally, as a maker/hacker ... you build your own!
 ![gif](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/tmp_3789-200w(3)-1863774699.gif "gif")
 
 
-##Demo Videos:
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=aCoGVHFFQqk" target="_blank"><img src="http://img.youtube.com/vi/aCoGVHFFQqk/0.jpg" alt="tinyDancer" width="320" height="240" border="10" /></a> 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=hFmYEhCrSMo" target="_blank"><img src="http://img.youtube.com/vi/hFmYEhCrSMo/0.jpg" alt="tinyDancer" width="320" height="240" border="10" /></a> 
+##Demo Video:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=tdYlgQF4OZg" target="_blank"><img src="http://img.youtube.com/vi/tdYlgQF4OZg/0.jpg" alt="tinyDancer" width="320" height="240" border="10" /></a> 
+
 
 ###Why is the [Slow Dance time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") so expensive?
 One of the more expensive parts of that project is the microcontroller, for this the [time frame](https://www.kickstarter.com/projects/xercyn/slow-dance-a-frame-that-slows-down-time "Slow Dance time frame") uses an Atmel MEGA series chipset which is overkill to say the least! (most of the ATMEGA's peripherals such as I/O, timers and serial comms aren't used at all). This coupled with custom magnet coils seems to bump the price up quite a bit. 
