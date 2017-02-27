@@ -63,7 +63,7 @@ The same should be done to the LED line, currently the schematic uses the same c
 ![Channel 1](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/SDS00002.BMP "Channel 1")
 
 ##Are there other ways to reduce the cost?
-Yup! Instead of buying 40ft of copper wire and winding it over a ferrous slug, simply repurpose a 12v solenoid by fixing the slug in place with epoxy (as close to center as possible). 
+Yup! Instead of buying 40ft of copper wire and winding it over a ferrous slug, simply repurpose a 12v solenoid by fixing the slug in place with epoxy (as close to centre as possible). 
 ![Setup](https://raw.githubusercontent.com/SamClarke2012/tinyDancer/master/Oscope/tmp_27874-foto_no_exif89039024.jpg "ready-made magnet")
 
 
